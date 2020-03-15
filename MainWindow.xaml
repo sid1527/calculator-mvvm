@@ -1,0 +1,55 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Calculator"
+        Title="Calculator" Height="356.014" Width="514.176"
+        Background="Black">
+    <Window.DataContext>
+        <local:AirthmeticViewModel />
+    </Window.DataContext>
+  
+    <Window.Resources> 
+      <Style x:Key = "ValueButton" TargetType = "Button">
+         <Setter Property = "Foreground" Value = "Blue"/> 
+         <Setter Property = "FontSize" Value = "14"/>
+         <Setter Property = "FontWeight" Value ="Bold"/>
+      </Style>
+      <Style x:Key = "OperationButton" TargetType = "Button">
+         <Setter Property = "Foreground" Value = "Red"/> 
+         <Setter Property = "FontSize" Value = "18"/>
+         <Setter Property = "FontWeight" Value ="Bold"/>
+         <Setter Property ="Background" Value="Darkgray"/>
+      </Style>
+      <Style TargetType="TextBox">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="TextAlignment" Value="Right"/>
+      </Style>
+   </Window.Resources> 
+  
+    <DockPanel HorizontalAlignment="Left" Height="290" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="482" Background="Black">
+        <TextBox DockPanel.Dock="Top" Height="53" IsReadOnly="True" Text="{Binding updateNumber}" MaxLength="15"></TextBox>
+        <UniformGrid Name="UGrid" Rows="4" Columns="4" Width="481">
+            <Button x:Name="btn7" Style = "{StaticResource ValueButton}" Content="7" Margin="5,5,0,0" Click="btn7_Click" />
+            <Button x:Name="btn8" Style = "{StaticResource ValueButton}" Content="8" Margin="5,5,0,0" Click="btn8_Click"/>
+            <Button x:Name="btn9" Style = "{StaticResource ValueButton}" Content="9" Margin="5,5,0,0" Click="btn9_Click"/>
+            <Button x:Name="Divide" Style = "{StaticResource OperationButton}" Content="/" Margin="5,5,5,0" Click="Divide_Click"/>
+
+            <Button x:Name="btn4" Style = "{StaticResource ValueButton}" Content="4" Margin="5,5,0,0" Click="btn4_Click"/>
+            <Button x:Name="btn5" Style = "{StaticResource ValueButton}" Content="5" Margin="5,5,0,0" Click="btn5_Click"/>
+            <Button x:Name="btn6" Style = "{StaticResource ValueButton}" Content="6" Margin="5,5,0,0" Click="btn6_Click"/>
+            <Button x:Name="Multiply" Style = "{StaticResource OperationButton}" Content="*" Margin="5,5,5,0" Click="Multiply_Click"/>
+
+            <Button  Name="btn1" Style = "{StaticResource ValueButton}" Content="1" Margin="5,5,0,0" Click="btn1_Click"/>
+            <Button x:Name="btn2" Style = "{StaticResource ValueButton}" Content="2" Margin="5,5,0,0" Click="btn2_Click"/>
+            <Button x:Name="btn3" Style = "{StaticResource ValueButton}" Content="3" Margin="5,5,0,0" Click="btn3_Click"/>
+            <Button x:Name="Subtract" Style = "{StaticResource OperationButton}" Content="-" Margin="5,5,5,0" Click="Subtract_Click"/>
+
+            <Button x:Name="Clear" Style = "{StaticResource OperationButton}" Content="C" Margin="5,5,0,5" Click="Clear_Click"/>
+            <Button x:Name="btn0" Style = "{StaticResource ValueButton}" Content="0" Margin="5,5,0,5" Click="btn0_Click"/>
+            <Button x:Name="Add" Style = "{StaticResource OperationButton}" Content="+" Margin="5,5,0,5" Click="Add_Click"/>
+            <Button x:Name="equal" Style = "{StaticResource OperationButton}" Content="=" Margin="5,5,5,5" Click="equal_Click"/>
+
+        </UniformGrid>
+    </DockPanel>
+</Window>

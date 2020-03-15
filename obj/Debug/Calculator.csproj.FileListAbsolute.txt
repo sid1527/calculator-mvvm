@@ -1,0 +1,15 @@
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\App.g.cs
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\MainWindow.baml
+D:\mvvm calc\calculatorwpfmvvm\sourceCode\sourceCode\Calculator\Calculator\obj\Debug\Calculator.g.resources
